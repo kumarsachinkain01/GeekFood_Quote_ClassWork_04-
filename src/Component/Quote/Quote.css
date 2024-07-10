@@ -1,0 +1,42 @@
+.quote-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .quote-card {
+    width: 90%;
+    max-width: 900px;
+    color: white;
+    background: #6b6c70;
+    padding: 20px;
+    margin: 10px 0;
+    border-radius: 8px;
+    text-shadow: 15px 15px 15px rgb(37, 12, 128);
+    box-shadow: 5px 10px 15px rgba(0, 0, 0, 1);
+    text-align: center;
+  }
+  
+  .quote-text {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .quote-author {
+    font-size: 1rem;
+    font-weight: bolder;
+    color: #222121;
+  }
+  
+  @media (min-width: 600px) {
+    .quote-text {
+      font-size: 1.4rem;
+    }
+  
+    .quote-author {
+      font-size: 1.1rem;
+    }
+  }
+  
